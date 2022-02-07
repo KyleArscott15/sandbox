@@ -1,4 +1,5 @@
 clf;
+clc;
 clear;
  
  #colormap ("default");
@@ -18,8 +19,8 @@ clear;
  h = quiver3 (x, y, z, u, v, w);
  set (h, "maxheadsize", 0.2);
  
- %[u2, v2, w2] = gradient (x, y, z);
- surf (u2, v2, w2);
+## [u2, v2, w2] = gradient (x, y, z);
+## surf (u2, v2, w2);
  
  hold off;
  
